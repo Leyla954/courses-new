@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+}
+header .container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .container .menu .link nav ul {
+  display: flex;
+  gap: 30px;
+}
+header .container .menu .link nav ul li a {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+header .container .menu .button {
+  display: flex;
+  gap: 30px;
+}
+header .container .menu .button .join {
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: #FF7B2E;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+header .container .menu .button .join:hover {
+  background-color: plum;
+}
+header .container .menu .button .login {
+  font-size: 17px;
+  padding: 15px 25px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: 0.6s;
+}
+header .container .menu .button .login:hover {
+  background-color: #FF7B2E;
+}
+
+main .online {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/courses/assets/img/hero/h1_hero.png.webp);
+}
+main .online .container {
+  width: 40%;
+  height: 750px;
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+}
+main .online .content h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  color: white;
+}
+main .online .content p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px 0;
+  font-size: 20px;
+  color: white;
+}
+main .online .content .free {
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: #FF7B2E;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+main .online .content .free:hover {
+  background-color: plum;
+}
+main .cards {
+  position: absolute;
+  top: 90%;
+}
+main .cards .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .cards .container .first {
+  display: flex;
+  gap: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+main .cards .container .first .icon {
+  display: flex;
+  gap: 30px;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #fff;
+}
+main .cards .container .first .icon .paragraf {
+  line-height: 30px;
+  color: #4255A4;
+}
+main .cards .container .first .icon .paragraf .head {
+  font-weight: bold;
+  font-size: 25px;
+}
+main .cards .container .first .icon .paragraf .body {
+  font-size: 18px;
+}
+main .cards .container h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  padding: 30px;
+  color: #4255A4;
+  margin-top: 20%;
+}
+main .cards .container .second {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 30px;
+  line-height: 30px;
+  padding-left: 6rem;
+}
+main .cards .container .second .card {
+  width: 80%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  object-fit: cover;
+}
+main .cards .container .second .card .card-body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 85%;
+  padding-left: 30px;
+}
+main .cards .container .second .card .card-body .user {
+  color: #6E7697;
+}
+main .cards .container .second .card .card-body h3 {
+  padding: 20px 0;
+  font-size: 25px;
+  color: #4255A4;
+}
+main .cards .container .second .card .card-body .card-text {
+  padding: 20px 0;
+  color: #6E7697;
+}
+main .cards .container .second .card .card-body .srats i {
+  color: #FF7B2E;
+}
+main .cards .container .second .card .card-body .more {
+  display: flex;
+  justify-content: space-between;
+}
+main .cards .container .second .card .card-body .more span {
+  color: #6E7697;
+}
+main .cards .container .second .card .card-body .more span em {
+  color: #FF7B2E;
+}
+main .cards .container .second .card .card-body .more .money {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4255A4;
+}
+main .cards .container .second .card .card-body .find {
+  margin: 30px 0;
+  color: #4255A4;
+  background-color: #fff;
+  border: 1px solid #E2E4FF;
+  width: 110%;
+  height: 70px;
+  font-size: 15px;
+}
+main .cards .container .second .card .card-body .find:hover {
+  color: #fff;
+  background-color: #FF7B2E;
+}
+main .learner .container {
+  width: 100%;
+  height: 400px;
+  margin-top: 80%;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main .learner .container .first {
+  object-fit: cover;
+}
+main .learner .container .second h2 {
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #4255A4;
+}
+main .learner .container .second .text {
+  color: #6E7697;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+}
+main .learner .container .second .text i {
+  font-size: 25px;
+  color: #FF7B2E;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #4255A4;
+}
+footer .container {
+  width: 85%;
+  height: 500px;
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10%;
+}
+footer .container .logo i {
+  padding: 15px 17px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #4255A4;
+  transition: 0.6s;
+}
+footer .container .logo i:hover {
+  background-color: #C86FFF;
+}
+footer .container .logo p {
+  padding: 30px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  line-height: 35px;
+}
+footer .container .main {
+  display: flex;
+  gap: 7rem;
+  line-height: 30px;
+}
+footer .container .main h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  color: #fff;
+  padding: 20px 0;
+}
+footer .container .main p {
+  padding: 7px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+footer .heart {
+  padding: 7px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+footer .heart i {
+  color: #C86FFF;
+}
